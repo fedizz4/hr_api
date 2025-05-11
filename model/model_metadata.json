@@ -1,0 +1,1 @@
+{"features": ["Age", "Department", "DistanceFromHome", "Education", "EducationField", "YearsAtCompany", "JobRole", "MonthlyIncome", "AbsencesLastYear", "PerformanceRating", "SatisfactionScore"], "categorical_columns": ["Department", "EducationField", "JobRole"]}

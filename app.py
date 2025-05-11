@@ -3,6 +3,8 @@ import joblib
 import numpy as np
 import json
 import os
+import numpy as np
+np.__version__ = '1.26.4'  # Force la version attendue
 
 app = Flask(__name__)
 

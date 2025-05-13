@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
 import numpy as np
 import json
@@ -7,7 +8,7 @@ import numpy as np
 np.__version__ = '1.26.4'  # Force la version attendue
 
 app = Flask(__name__)
-
+CORS(app)
 # Chemin vers les modèles
 MODEL_DIR = os.path.join(os.path.dirname(__file__), 'model')
 
